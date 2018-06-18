@@ -58,8 +58,8 @@ public class MainThread extends Thread {
             timeMillis = (System.nanoTime() - startTime) / 1000000;
             waitTime = targetTime - timeMillis;
             try {
-                //=========================================================== FPSMax = INFINITE
-                //sleep(waitTime);
+                //===========================================================
+                sleep(waitTime);
             } catch (Exception e) {}
 
 
